@@ -74,18 +74,6 @@ describe('validation tests', () => {
   })
 
   it(
-    'fails with bad mailbox',
-    async () => {
-      const res = await validate('admin@github.com')
-      expect(res.valid).toBe(false)
-      expect(res.reason).toBe('smtp')
-      expect(res.validators.smtp?.valid).toBe(false)
-      expect(res).toMatchSnapshot()
-    },
-    elevenSeconds
-  )
-
-  it(
     'passes when we skip smtp validation',
     async () => {
       const res = await validate({
