@@ -25,6 +25,7 @@
     "start": "npm serve",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "prepublish": "npm run build",
     "prepublishOnly": "npm test && npm lint",
     "prepare": "npm run build",
     "preversion": "npm lint",
