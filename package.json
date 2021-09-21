@@ -1,5 +1,5 @@
 {
-  "name": "@maxdietrich/deep-email-validator",
+  "name": "@Hamzakam/deep-email-validator",
   "version": "0.1.19",
   "files": [
     "dist/**/*"
@@ -9,7 +9,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxdietrich/deep-email-validator"
+    "url": "https://https://github.com/Hamzakam/deep-email-validator"
   },
   "author": "David Alberto Adler",
   "license": "MIT",
