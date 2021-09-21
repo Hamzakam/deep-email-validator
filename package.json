@@ -26,6 +26,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "prepublishOnly": "npm test && npm lint",
+     "prepare":"npm build",
     "preversion": "npm lint",
     "version": "npm format && git add -A src",
     "postversion": "git push && git push --tags",
